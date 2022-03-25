@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Boas-Vindas</title>
+    <style>
+        #res{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #2CF5C3;
+            width: 150px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Boas Vindas</h1>
+    <div id="res" onclick="clicar()">
+        Inicie o desafio
+    </div>
+    <script>
+        function clicar(){
+            var nome = prompt('Olá,Qual é seu nome ?')
+            var idade = prompt(`Olá ${nome}! Quantos anos vc tem ?`)
+            alert(`Acabei de conhecer ${nome}, que tem ${idade} anos de idade !`)
+        }
+    </script>
+</body>
+</html>
