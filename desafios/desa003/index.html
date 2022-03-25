@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes e Depois</title>
+    <style>
+        #box{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F7CEAA;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Antes e depois</h1>
+    <div id="box" onclick="clicar()">
+        Antecessor e sucessor
+    </div>
+    <script>
+       function clicar(){
+           var n = Number(prompt('Digite um numero qualquer'))
+           var s1 = (n - 1)
+           var s2 = (n + 1)
+           alert(`Antes do ${n}, temos o numero ${s1}.
+           Depois do ${n}, temos o numero ${s2}.`)
+       }
+    </script>
+</body>
+</html>
