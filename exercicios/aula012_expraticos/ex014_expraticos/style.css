@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+header{
+    text-align: center;
+}
+
+body{
+    background-color: #58CFFB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    text-align: center;
+}
+
+#msg{
+    padding: 10px;
+}
+
+#foto{
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
