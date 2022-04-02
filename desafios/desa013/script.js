@@ -5,10 +5,13 @@ function clicar(){
     var m = Number((n1 + n2) / 2)
     var res = document.getElementById('res')
     if(m <= 3){
-        res.innerHTML = '<p>Aluno: <strong>Reprovado</strong></p>'
+        res.innerHTML = `<p>Analisando a situação do aluno ${nome}</p>`
+        res.innerHTML += '<p>Aluno: <strong>Reprovado</strong></p>'
     }else if(m <= 6){
-        res.innerHTML = '<p>Aluno em: <strong>Recuperação</strong></p>'
+        res.innerHTML = `<p>Analisando a situação do aluno ${nome}</p>`
+        res.innerHTML += '<p>Aluno em: <strong>Recuperação</strong></p>'
     }else{
-        res.innerHTML = '<p>Aluno: <strong>Aprovado</strong></p>'
+        res.innerHTML = `<p>Analisando a situação do aluno ${nome}</p>`
+        res.innerHTML += '<p>Aluno: <strong>Aprovado</strong></p>'
     }
 }
